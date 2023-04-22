@@ -11,6 +11,7 @@ mkdir /app && cd $_
 echo "[3] Download tar"
 sleep 2
 wget https://sonatype-download.global.ssl.fastly.net/repository/downloads-prod-group/3/nexus-3.39.0-01-unix.tar.gz
+tar -xvzf  nexus-3.39.0-01-unix.tar.gz
 
 echo "[4] Move folder"
 sleep 2
